@@ -1,0 +1,17 @@
+#远程服务器主机信息
+server:
+  host:     '192.168.16.162'
+  port:     '22'
+  user:     'root'
+  password: 'toor'
+
+#远程服务器执行命令列表
+shell:
+  - 'ls'
+  - 'pwd'
+
+#远程服务器文件拷贝配置
+rcp:
+  srcdir:  'test'     #需要拷贝的源文件目录
+  destdir: '/home/'   #需要拷贝的目的文件目录
+  zipname: 'test.zip' #需要拷贝的目录文件压缩文件名称
