@@ -38,8 +38,6 @@ func main(){
 		fmt.Println("缺少参数，请使用-hlep查看")
 		return
 	}
-	fmt.Println(isExecCommand)
-	fmt.Println(isFilesCopy)
 
 	//读取配置文件
 	if err = config.LoadConfigInfo();err != nil{
