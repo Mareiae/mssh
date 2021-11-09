@@ -11,7 +11,7 @@ import (
 
 func main(){
 	var (
-		config 			utils.ConfigInfo
+		config 		utils.ConfigInfo
 		sshClient   	*ssh.Client
 		sftpClient  	*sftp.Client
 		err         	error
